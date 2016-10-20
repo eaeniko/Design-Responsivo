@@ -136,7 +136,10 @@ header {
 			padding-left: 0.35em;
 			padding-right: 0;
 		}
-
+.mini {
+	float: left;
+	width: 50%;
+}
 
 /* direita da TV */
 .chamada.tv {
@@ -169,3 +172,9 @@ header {
 			background: #555;
 			margin-left: 1.5em;
 		}
+/*sessions */
+
+.secao {
+	float: left;
+	width: 33.333%;
+}
