@@ -1,3 +1,19 @@
+@media (min-width: 600px) {
+    html {
+        font-size: 1.125em;
+    }
+    .secao {
+    	width: 50%;
+    }
+}
+@media (min-width: 1000px) {
+    html {
+        font-size: 1.25em;
+    }
+    .secao {
+    	width: 33.333%
+    }
+}
 /* reset */
 *,
 *:after,
@@ -20,6 +36,9 @@ header {
 }
 img {
 	max-width: 100%;
+}
+.secao {
+	float: left;
 }
 .logo img {
 	display: block;
@@ -203,9 +222,4 @@ header {
 			background: #555;
 			margin-left: 1.5em;
 		}
-/*sessions */
 
-.secao {
-	float: left;
-	width: 33.333%;
-}
