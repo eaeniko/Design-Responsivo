@@ -18,8 +18,39 @@ header {
 	background: #f0f0f0;
 	width: 100%;
 }
+img {
+	max-width: 100%;
+}
 .logo img {
 	display: block;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+.logo,
+.secao {
+	padding: 0 1%;
+}
+.logo,
+.busca,
+.barra-nav,
+.menu-principal {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-principal li {
+    float: left;
+}
+/* font */
+header {
+    padding: 0.5em 0;
+}
+.destaques {
+    margin-top: 1em;
+}
+.barra-nav {
+    margin: 0.4em 0;
 }
 
 /* busca */
