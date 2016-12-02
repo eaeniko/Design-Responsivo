@@ -268,3 +268,37 @@ header {
 			margin-left: 1.5em;
 		}
 
+/* menu */
+.menu-abrir,
+.menu-fechar {
+    background: none;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    font-size: 1.6em;
+    text-indent: -999em;
+}
+
+.menu-abrir {
+    height: 0;
+    width:.75em;
+    padding-top:.125em;
+    border-top: .375em double #000;
+    border-bottom: .125em solid #000;
+
+    vertical-align: middle;
+    margin: 0.5em;    
+}
+
+.menu-fechar {
+    position: relative;
+    height: 1em;
+    width: 1em;
+}
+    .menu-fechar:before {
+        content: '\00D7';
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-indent: 0;
+    }
